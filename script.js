@@ -8,7 +8,7 @@ plus.addEventListener("click", function () {
   let newValue = counterValue + 1;
   if (newValue > 50) {
     newValue = 50;
-    title.textContent = "LIMIT! BUY PRO TO MORE COUNT.";
+    title.textContent = "LIMIT! BUY PRO TO COUNT MORE.";
   }
   res.innerHTML = newValue;
 });
